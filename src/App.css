@@ -2,15 +2,16 @@
 
 @keyframes background {
 	100% {
-		background-size: 2500px 1000px;
+		background-size: 2500px 200;
 	}
 }
 body {
 	align-items: center;
 	animation: background 5s infinite alternate linear;
 	background-image: url("Cloudy.svg");
-	background-position: -500px -100px;
-	background-size: 2500px 1200px;
+	background-position: 0 -100px;
+	background-size: 3000px 1200px;
+	background-repeat: repeat-x;
 	box-sizing: border-box;
 	display: flex;
 	font-family: "Roboto", sans-serif;
