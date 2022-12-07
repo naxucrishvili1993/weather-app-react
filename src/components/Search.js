@@ -4,7 +4,7 @@ const Search = (props) => {
 	const [value, setValue] = useState("");
 
 	return (
-		<form action="#">
+		<form action="#" onSubmit={(event) => event.preventDefault()}>
 			<input
 				type="text"
 				onChange={(e) => setValue(e.target.value)}
